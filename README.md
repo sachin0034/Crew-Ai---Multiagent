@@ -15,30 +15,37 @@ An AI-powered multi-agent system for analyzing documents, extracting key informa
 - **Gradio UI**: Provides a user-friendly interface for interacting with the system.  
 
 ---
-###Set up environment variables for email functionality:
+## Set up environment variables for email functionality:
 - **SMTP_EMAIL**: Your email address for sending reports.
 - **SMTP_PASSWORD**: Your email password or app-specific password.
 
-##Code Overview
+
+---
+## Code Overview
 ###Multi-Agent System
 The project employs a multi-agent architecture using Crew AI:
 
-###Text Extraction Agent:
+
+---
+## Text Extraction Agent:
 - **Role**: Extracts key details from documents.
 - **Goal**: Parse and identify critical information.
 
-###Comparison Agent:
+## Comparison Agent:
 - **Role**: Validates extracted data against reference data.
 - **Goal**: Identify discrepancies and highlight differences.
 
-###Reporting Agent:
+## Reporting Agent:
 - **Role**: Summarizes findings in a user-friendly format.
 - **Goal**: Deliver actionable insights.
 
-###Email Functionality
+
+---
+## Email Functionality
 Optional email integration allows automated delivery of analysis results to the email address extracted from the document.
 
-###Gradio UI
+---
+## Gradio UI
 Provides an intuitive interface for:
 **Uploading PDFs**.
 **Configuring analysis settings**.
